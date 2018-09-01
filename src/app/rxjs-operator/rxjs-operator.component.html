@@ -1,0 +1,14 @@
+Map Operator Flattened out User Model: <br/>
+Id : {{singleUser.id}} <br/>
+First Name: {{singleUser.firstName}} <br/>
+Last Name: {{singleUser.lastName}} <br/>
+<img src={{singleUser.avatar}} />
+<hr/>
+
+<div *ngFor="let user of allUsers.users">
+    Id : {{user.id}} <br/>
+    First Name: {{user.firstName}} <br/>
+    Last Name: {{user.lastName}} <br/>
+    <img src={{user.avatar}} />
+    <br/>
+</div>
